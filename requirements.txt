@@ -1,0 +1,6 @@
+python-dotenv
+pinecone-client
+langchain-openai
+langchain-community
+langchain-pinecone
+langchain-text-splitters
