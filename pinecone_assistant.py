@@ -7,7 +7,7 @@ load_dotenv()
 
 pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
 
-assistant = pc.assistant.Assistant(assistant_name="help-scout")
+assistant = pc.assistant.Assistant(assistant_name="help-scout-assistant")
 
 msg = Message(content="How old is the earth?")
 resp = assistant.chat(messages=[msg])

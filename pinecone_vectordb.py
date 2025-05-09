@@ -102,6 +102,4 @@ def main(user_query):
     # Allow time for operations to complete
     time.sleep(5)
 
-    final_response = search_query(docsearch, user_query)
-
-    return final_response
+    return search_query(docsearch, user_query)
